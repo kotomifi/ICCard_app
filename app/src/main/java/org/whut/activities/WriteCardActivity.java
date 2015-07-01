@@ -28,6 +28,7 @@ public class WriteCardActivity extends Activity implements View.OnClickListener 
     // 导航栏
     private ImageView backArr;
     private TextView midTitle;
+    private RelativeLayout rightLayout;
 
     private RelativeLayout readType;
     private RelativeLayout writeType;
@@ -74,6 +75,8 @@ public class WriteCardActivity extends Activity implements View.OnClickListener 
         backArr.setOnClickListener(this);
         midTitle = (TextView) findViewById(R.id.tv_topbar_middle_detail);
         midTitle.setText(getString(R.string.card_title));
+        rightLayout = (RelativeLayout) findViewById(R.id.tv_topbar_right_map_layout);
+        rightLayout.setOnClickListener(this);
     }
 
     /**
@@ -100,6 +103,9 @@ public class WriteCardActivity extends Activity implements View.OnClickListener 
                 break;
             case R.id.iv_topbar_left_back:
                 finish();
+                break;
+            case R.id.tv_topbar_right_map_layout:
+                nextActivity(WriteCardOnlineActivity.class);
                 break;
         }
     }
@@ -193,7 +199,7 @@ public class WriteCardActivity extends Activity implements View.OnClickListener 
         if (reader.ic_init(this, 0, 0) == 0) {
             chkPwd();
             data_offset = 32;
-            data_len = cardData.length();
+            data_len = cardData.length() / 2;
             byte[] data_buffer = new byte[256];
 
             AsciiToHex(cardData, data_buffer);
@@ -333,5 +339,10 @@ public class WriteCardActivity extends Activity implements View.OnClickListener 
         }
         String s = sb.toString();
         return s;
+    }
+
+    private void nextActivity(Class<?> cls) {
+        Intent intent = new Intent(WriteCardActivity.this, cls);
+        startActivity(intent);
     }
 }

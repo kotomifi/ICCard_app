@@ -20,6 +20,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 
 	private LinearLayout cardPasswdLay;
 	private LinearLayout aboutLay;
+	private LinearLayout webLay;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -49,18 +50,23 @@ public class SettingActivity extends Activity implements OnClickListener {
 		cardPasswdLay.setOnClickListener(this);
 		aboutLay = (LinearLayout) findViewById(R.id.about);
 		aboutLay.setOnClickListener(this);
+		webLay = (LinearLayout) findViewById(R.id.webService);
+		webLay.setOnClickListener(this);
 
 	}
 	
 	@Override
 	public void onClick(View view) {
 		switch (view.getId()) {
-		case R.id.card_passwd_settings:
-			nextActivity(ICCardPasswdActivity.class);
-			break;
-		case R.id.about:
-			nextActivity(AboutActivity.class);
-			break;
+			case R.id.card_passwd_settings:
+				nextActivity(ICCardPasswdActivity.class);
+				break;
+			case R.id.about:
+				nextActivity(AboutActivity.class);
+				break;
+			case R.id.webService:
+				nextActivity(WebServicePropertyActivity.class);
+				break;
 		}
 	}
 	

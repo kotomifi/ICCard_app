@@ -2,39 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/locSDK_5.01.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-afa8529513aceb0aaea193c35f2180cea470bfc1.jar" />
-    </item>
-    <item
-        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/classes-1224579093d71004ab53462f950ff209baf662ee.jar" />
-    </item>
-    <item
-        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/httpclient-cache-4.3.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ad6c1e2533fe6099e8c8ca182914dd025425f24d">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.4-0d5b4ae5d6249b39b66ba8a18c0640d9c7fd5d3d.jar" />
-    </item>
-    <item
-        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/httpcore-4.3.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/httpcore-4.3.2-d08300159e167461b2214b9a8321e681e73ac132.jar" />
-    </item>
-    <item
-        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/scanner.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="26330c3313e73b9a8102cee5bccd00d2981138b3">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/scanner-3b28d0a05152512249a6d2d5fcb8ab0ea55edee9.jar" />
+        sha1="8854f80a1a63f6348276dd5c8e96b9096784a513">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/locSDK_5.01-8537f3b744ded3e28b075a66deed4a85dce0df99.jar" />
     </item>
     <item
         jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/httpclient-4.3.4.jar"
@@ -44,18 +16,46 @@
         <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/httpclient-4.3.4-e3f8287d82716317734482ea409ad68959140733.jar" />
     </item>
     <item
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/httpcore-4.3.2-d08300159e167461b2214b9a8321e681e73ac132.jar" />
+    </item>
+    <item
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-2.4-jar-with-dependencies-f809f1fdc1202e529978c5ce060c24d60b4bda2b.jar" />
+    </item>
+    <item
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/httpclient-cache-4.3.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ad6c1e2533fe6099e8c8ca182914dd025425f24d">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.4-0d5b4ae5d6249b39b66ba8a18c0640d9c7fd5d3d.jar" />
+    </item>
+    <item
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/scanner.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="26330c3313e73b9a8102cee5bccd00d2981138b3">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/scanner-3b28d0a05152512249a6d2d5fcb8ab0ea55edee9.jar" />
+    </item>
+    <item
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-afa8529513aceb0aaea193c35f2180cea470bfc1.jar" />
+    </item>
+    <item
         jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/httpmime-4.3.4.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="54ffde537682aea984c22fbcf0106f21397c5f9b">
         <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/httpmime-4.3.4-dc7b335b0ffc6b72ab8e648d64ec5af191f881af.jar" />
-    </item>
-    <item
-        jar="/home/baisu/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-10f894310e35a2d3a672d7ebb01ba50a829e2b2b.jar" />
     </item>
     <item
         jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/dom4j-1.6.1.jar"
@@ -65,11 +65,11 @@
         <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/dom4j-1.6.1-42efab900311b7e27ec860f86252af32b7881463.jar" />
     </item>
     <item
-        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/locSDK_5.01.jar"
+        jar="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="8854f80a1a63f6348276dd5c8e96b9096784a513">
-        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/locSDK_5.01-8537f3b744ded3e28b075a66deed4a85dce0df99.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/classes-1224579093d71004ab53462f950ff209baf662ee.jar" />
     </item>
     <item
         jar="/home/baisu/AndroidStudioProjects/GasManagement/app/libs/TZX-U-A-lib.jar"
@@ -77,6 +77,13 @@
         revision="22.0.1"
         sha1="6a9d8726c690e7b05ee6f14e4629ebe4aa9f767c">
         <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/TZX-U-A-lib-24cb74274f225ec97541ebdccf4b45bd9d7496c7.jar" />
+    </item>
+    <item
+        jar="/home/baisu/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/baisu/AndroidStudioProjects/GasManagement/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-10f894310e35a2d3a672d7ebb01ba50a829e2b2b.jar" />
     </item>
 
 </items>

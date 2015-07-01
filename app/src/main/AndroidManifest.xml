@@ -79,6 +79,8 @@
         <activity android:name="org.whut.activities.AddInstallActivity" />
         <activity android:name="org.whut.activities.AddRepairActivity" />
         <activity android:name="org.whut.activities.CardInfoActivity" />
+        <activity android:name="org.whut.activities.WriteCardOnlineActivity" />
+        <activity android:name="org.whut.activities.WebServicePropertyActivity" />
 
         <!-- service -->
         <service android:name="org.whut.services.WriteCardService" />

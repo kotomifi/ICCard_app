@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <include layout="@layout/common_topbar_repair_operation" />
+    <include layout="@layout/common_topbar_main" />
 
     <RelativeLayout
         android:layout_width="fill_parent"

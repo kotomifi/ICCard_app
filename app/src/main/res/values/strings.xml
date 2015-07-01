@@ -29,6 +29,7 @@
 	<string name="setting">设置</string>
 	<string name="card_passwd_settings">修改IC卡密码</string>
 	<string name="about">关于</string>
+    <string name="webService">修改WebService地址</string>
 	<string name="version_title">Version 1.0</string>
 	<string name="about_intro">燃气助手是由武汉蓝焰自动化有限公司研发的一款天然气表安装，维护软件。</string>
     <string name="about_team">Team：QA, WHUT(WUHAN)</string>
@@ -44,4 +45,14 @@
     <string name="old_code">旧表条码</string>
     <string name="new_reading">新表读数</string>
     <string name="old_reading">旧表读数</string>
+
+    <string name="online_write">在线写卡</string>
+    
+    <string name="meter_id">表具编号</string>
+    <string name="meter_info">写卡类型</string>
+
+    <string name="web_ip">URL/IP地址(eg:http(s)://192.128.1.100)</string>
+    <string name="web_port">端口号</string>
+
+    <string name="submit">提交</string>
 </resources>
