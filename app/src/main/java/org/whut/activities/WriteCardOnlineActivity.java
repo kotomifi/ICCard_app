@@ -17,6 +17,7 @@ import com.icking.lib.ReaderJni;
 import org.ksoap2.serialization.SoapObject;
 import org.whut.gasmanagement.R;
 import org.whut.utils.CardHelper;
+import org.whut.utils.SPUtils;
 import org.whut.utils.ToastHelper;
 import org.whut.utils.WebServiceUtils;
 
@@ -138,8 +139,10 @@ public class WriteCardOnlineActivity extends Activity implements View.OnClickLis
      * @return
      */
     private void getData(String meterId, String info) {
-        final String namespace = "http://temol.net/";
-        final String url = "http://temol.net:8000/SmCard.asmx";
+        String ip = (String)SPUtils.get(WriteCardOnlineActivity.this, "ip", "");
+        String port = (String)SPUtils.get(WriteCardOnlineActivity.this, "port", "");
+        final String namespace = ip;
+        final String url = ip + ":" + port + "/SmCard.asmx";
         final String method = "GetCardString";
 
         final HashMap<String, String> properties = new HashMap<String, String>();

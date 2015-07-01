@@ -6,6 +6,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import org.whut.gasmanagement.R;
+import org.whut.utils.SPUtils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -30,7 +31,7 @@ public class LoadingActivity extends Activity{
 				// TODO Auto-generated method stub
 				//创建文件夹
 				InitFolders();
-				initPwd();
+				initData();
 				Intent it = new Intent(LoadingActivity.this,ModeChooseActivity.class);
 				startActivity(it);
 				finish();
@@ -56,11 +57,16 @@ public class LoadingActivity extends Activity{
 			f3.mkdirs();
 		}
 	}
-	
-	private void initPwd() {
-		SharedPreferences sp = getSharedPreferences("card", Activity.MODE_PRIVATE);
-		SharedPreferences.Editor editor = sp.edit();
-		editor.putString("card_pwd", "B62307");
-		editor.commit();
+
+	private void initData() {
+		// WebService
+		String ip = "http://temol.net/";
+		String port = "8000";
+		SPUtils.put(LoadingActivity.this, "ip", ip);
+		SPUtils.put(LoadingActivity.this, "port", port);
+
+		// IC卡默认密码
+		SPUtils.put(LoadingActivity.this, "card_pwd", "B62307");
 	}
+
 }
